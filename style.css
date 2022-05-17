@@ -12,8 +12,7 @@ h1{
     margin: 0;
 }
 
-.image-container {
-    margin: 0;
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,13 +22,12 @@ h1{
     background-color: #5574ff;
     min-width: 50vw;
     max-width: 50vw;
-    height: 50vh;
     margin: 5em;
-    padding: 5em;
+    padding: 15em;
 }
 
 .icons {
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
 }
