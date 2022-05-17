@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    background-color: #ff5566;
+    min-width: 50vw;
+    max-width: 50vw;
+    height: 50vh;
+    margin: 5em;
+    padding: 5em;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
