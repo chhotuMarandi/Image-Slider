@@ -2,32 +2,20 @@ body {
     margin: 0;
 }
 
-.main {
-    width: 100vw;
-    height: 100vh;
-}
 
-h1{
-    text-align: center;
-    margin: 0;
-}
 
 .container {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
-.image {
-    background-color: #5574ff;
-    min-width: 50vw;
-    max-width: 50vw;
-    margin: 5em;
-    padding: 15em;
-}
-
-.icons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.image-container {
+    background-color: #ffddaa;
+    padding: 20px;
+    width: 60vw;
+    height: 60vh;
 }
