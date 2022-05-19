@@ -5,11 +5,10 @@ body {
 
 .container {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
 .image-container {
@@ -18,16 +17,10 @@ body {
     width: 60vw;
     height: 60vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-.icons {
-    display: flex;
-    justify-content: space-between;
-}
-
-h1{
-    
+.heading {
+    text-align: center;
 }
