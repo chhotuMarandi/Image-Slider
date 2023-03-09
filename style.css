@@ -2,5 +2,34 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
- background-color: #222;
+ position: relative;
+ /* background-color: #222; */
+}
+
+.container {
+ width: 100%;
+ height: 100vh;
+ background-color: red;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.wrapper {
+ width: 720px;
+ height: 460px;
+ background-color: blue;
+ 
+}
+
+.top{
+ width: 700px;
+ height: 400px;
+ background-color: yellow;
+}
+
+.top img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
 }
