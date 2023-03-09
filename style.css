@@ -16,16 +16,25 @@
 }
 
 .wrapper {
- width: 720px;
+ width: 800px;
  height: 460px;
  background-color: blue;
+ display: flex;
+ align-items: center;
+ justify-content: center;
  
+}
+
+.wrapper i {
+ margin: auto;
+ font-size: 2em;
 }
 
 .top{
  width: 700px;
  height: 400px;
  background-color: yellow;
+ overflow: hidden;
 }
 
 .top img {
