@@ -1,44 +1,67 @@
-*{
- margin: 0;
- padding: 0;
- box-sizing: border-box;
- position: relative;
- /* background-color: #222; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
- width: 100%;
- height: 100vh;
- background-color: red;
- display: flex;
- justify-content: center;
- align-items: center;
+  width: 100%;
+  height: 100vh;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .wrapper {
- width: 800px;
- height: 460px;
- background-color: blue;
- display: flex;
- align-items: center;
- justify-content: center;
- 
+  width: 80%;
+  height: 90%;
+  position: absolute;
+  /* background-color: blue; */
+  padding: 1em;
+}
+
+.wrapper-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .wrapper i {
- margin: auto;
- font-size: 2em;
+  margin: auto;
+  font-size: 2em;
+  cursor: pointer;
 }
 
-.top{
- width: 700px;
- height: 400px;
- background-color: yellow;
- overflow: hidden;
+.top {
+  height: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .top img {
- width: 100%;
- height: 100%;
- object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bottom {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.bottom .btn-circle {
+  border: 2px solid black;
+  background-color: white;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  cursor: pointer;
 }
